@@ -1,0 +1,384 @@
+
+
+div a:focus {
+	outline: none;
+}
+
+div a:hover, div a:focus, div a:active {
+	text-decoration: none;
+}
+
+body {
+    font-family: 'Days One', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Slackey', sans-serif;
+}
+
+ul {
+	padding: 0;
+    list-style-type: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.float {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.blkCenter {
+	display: block;
+	margin: auto;
+}
+
+.nopad {
+	padding: 0;
+}
+
+.nopadL {
+	padding-left: 0;
+}
+
+.nopadR {
+	padding-right: 0;
+}
+
+.padFix {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.padFixL {
+	padding-left: 15px;
+}
+
+.padFixR {
+	padding-right: 15px;
+}
+
+.padTop {
+	padding-top: 60px;
+}
+
+.padBot {
+	padding-bottom: 60px;
+}
+
+.mtop {
+	margin-top: 30px;
+}
+
+.mbot {
+	margin-bottom: 30px;
+}
+
+.mtop30 {
+	margin-top: 30px;
+}
+
+.mbot30 {
+	margin-bottom: 30px;
+}
+
+.mtop60 {
+	margin-top: 60px;
+}
+
+.mbot60 {
+	margin-bottom: 60px;
+}
+
+.mtop90 {
+	margin-top: 90px;
+}
+
+.mbot90 {
+	margin-bottom: 90px;
+}
+
+.full, .w100 {
+	width: 100%;
+}
+
+.half, .w50 {
+	width: 50%;
+}
+
+.fifth, .w20 {
+	width: 20%;
+}
+
+.sixth, .w16 {
+	width: 16.66%;
+}
+
+.tenth, .w10 {
+	width: 10%;
+}
+
+.quarter, .w25 {
+	width: 25%;
+}
+
+.third, .w33 {
+	width: 33.33%;
+}
+
+.two-thirds, .w66 {
+	width: 66.66%;
+}
+
+.three-quarters, .w75 {
+	width: 75%;
+}
+
+.almost-full, .w90 {
+	width: 90%;
+}
+
+.w40 {
+	width: 40%;
+}
+
+.w30 {
+	width: 30%;
+}
+
+.rel {
+	position: relative;
+}
+
+.childCenter {
+	text-align: center;
+}
+
+.childLeft {
+	text-align: left;
+}
+
+.childRight {
+	text-align: right;
+}
+/*  ==================================== COMMON ==================================== */
+
+body > header, body > footer {
+    background-image: linear-gradient(20deg, #08f, #08f 49%, #f40 50%, #f40);
+    box-shadow: 0 0 5px #000;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 0 #000;
+}
+
+body > main {
+    min-height: calc(100vh - 156px);
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 15px;
+}
+
+body > footer p {
+    margin: 0;
+    padding: 15px;
+}
+
+.pod {
+    margin: 30px 0;
+    border-radius: 15px;
+    border: 5px solid;
+    padding: 15px 0;
+}
+
+.pod-1 {
+    background-color: #f404;
+    border-color: #f40;
+    box-shadow: 0 0 2px #f40, 0 0 5px 1px #000 inset;
+}
+
+.pod-2 {
+    background-color: #8f04;
+    border-color: #8f0;
+    box-shadow: 0 0 2px #8f0, 0 0 5px 1px #000 inset;
+}
+
+.pod-3 {
+    background-color: #08f4;
+    border-color: #08f;
+    box-shadow: 0 0 2px #08f, 0 0 5px 1px #000 inset;
+}
+
+.pod-4 {
+    background-color: #fe04;
+    border-color: #fe0;
+    box-shadow: 0 0 2px #fe0, 0 0 5px 1px #000 inset;
+}
+
+.pod-5 {
+    background-color: #0df4;
+    border-color: #0df;
+    box-shadow: 0 0 2px #0df, 0 0 5px 1px #000 inset;
+}
+
+.pod-6 {
+    background-color: #a0f4;
+    border-color: #a0f;
+    box-shadow: 0 0 2px #f40, 0 0 5px 1px #000 inset;
+}
+
+/* ==================================== HOME ==================================== */
+
+#tema-list, #juego-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+#tema-list li {
+    border-radius: 25px;
+    flex-basis: 230px;
+    padding: 15px;
+}
+
+#tema-list a {
+    display: block;
+    perspective: 100px;
+}
+
+#tema-list li img {
+    border-radius: 25px;
+    transition: 150ms ease;
+}
+
+#tema-list li img:hover {
+    transform: translateZ(5px);
+}
+
+#tema-list p {
+    margin: 10px 0 0;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 0 #000;
+}
+
+.pod-1 #tema-list li {
+    background-color: #f40;
+    box-shadow: 0 0 2px #f40, 0 0 5px 1px #000 inset;
+}
+
+.pod-2 #tema-list li {
+    background-color: #8f0;
+    box-shadow: 0 0 2px #8f0, 0 0 5px 1px #000 inset;
+}
+
+.pod-3 #tema-list li {
+    background-color: #08f;
+    box-shadow: 0 0 2px #08f, 0 0 5px 1px #000 inset;
+}
+
+.pod-4 #tema-list li {
+    background-color: #fe0;
+    box-shadow: 0 0 2px #fe0, 0 0 5px 1px #000 inset;
+}
+
+.pod-5 #tema-list li {
+    background-color: #0df;
+    box-shadow: 0 0 2px #0df, 0 0 5px 1px #000 inset;
+}
+
+.pod-6 #tema-list li {
+    background-color: #a0f;
+    box-shadow: 0 0 2px #f40, 0 0 5px 1px #000 inset;
+}
+
+/* ==================================== JUEGO ==================================== */
+
+#juego h3 {
+    margin: 30px 0;
+}
+
+#juego-list li {
+    cursor: pointer;
+}
+
+.item {
+    display: inline-block;
+    border: 10px solid;
+    height: 100%;
+    width: 220px;
+    transition: opacity 250ms ease;
+}
+
+.item.discarded {
+    opacity: 0.2;
+}
+
+.item figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.item figcaption {
+    margin: auto 0;
+    padding: 15px 0 10px;
+}
+
+.pod-1 .item {
+    background-color: #f40;
+    border-color: #f40;
+}
+
+.pod-2 .item {
+    background-color: #8f0;
+    border-color: #8f0;
+}
+
+.pod-3 .item {
+    background-color: #08f;
+    border-color: #08f;
+}
+
+.pod-4 .item {
+    background-color: #fe0;
+    border-color: #fe0;
+}
+
+.pod-5 .item {
+    background-color: #0df;
+    border-color: #0df;
+}
+
+.pod-6 .item {
+    background-color: #a0f;
+    border-color: #a0f;
+}
+a.back {
+    background-clip: content-box;
+    background-color: #000;
+    background-image: linear-gradient(20deg, #08f, #08f 49%, #f40 50%, #f40);
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-shadow: 0 0 2px 1px #0008 inset, 0 0 5px #0008;
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    margin-left: auto;
+    padding: 2px;
+    text-shadow: 2px 2px 0 #000;
+    transition: 150ms ease;
+    width: 25%;
+}
+
+a.back:hover {
+    box-shadow: 0 0 2px 1px #000 inset, 0 0 5px #000;
+}

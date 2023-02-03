@@ -1,0 +1,70 @@
+/*
+--breakpoint-sm: 576px;
+--breakpoint-md: 768px;
+--breakpoint-lg: 992px;
+--breakpoint-xl: 1200px;
+*/
+
+/* BOOTSTRAP XS */
+@media all and (min-width: 0px) and (max-width: 575px) {
+    .item {
+        font-size: 0.8rem;
+        width: 120px;
+    }
+
+    #juego > .container > .row > .col.text-center {
+        padding: 0;
+    }
+
+}
+
+/* BOOTSTRAP SM */
+@media all and (min-width: 576px) and (max-width: 767px) {
+    .item {
+        font-size: 0.8rem;
+        width: 150px;
+    }
+
+}
+
+/* BOOTSTAP MD */
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .item {
+        font-size: 0.8rem;
+        width: 150px;
+    }
+
+}
+
+/* BOOTSTAP LG */
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    .item {
+        font-size: 0.9rem;
+        width: 180px;
+    }
+}
+
+
+/* ============= EXTRA QUERIES ============= */
+
+/* 0-320 */
+@media all and (min-width: 0px) and (max-width: 320px) {
+
+}
+
+/* 0-480 */
+@media all and (min-width: 0px) and (max-width: 480px) {
+
+}
+
+/* 320-480 */
+@media all and (min-width: 320px) and (max-width: 480px) {
+
+}
+
+/* 480-767 */
+@media all and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+
