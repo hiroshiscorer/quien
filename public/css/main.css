@@ -228,7 +228,7 @@ body > footer p {
 .pod-6 {
     background-color: #a0f4;
     border-color: #a0f;
-    box-shadow: 0 0 2px #f40, 0 0 5px 1px #000 inset;
+    box-shadow: 0 0 2px #a0f, 0 0 5px 1px #000 inset;
 }
 
 /* ==================================== HOME ==================================== */
@@ -295,7 +295,7 @@ body > footer p {
 
 .pod-6 #tema-list li {
     background-color: #a0f;
-    box-shadow: 0 0 2px #f40, 0 0 5px 1px #000 inset;
+    box-shadow: 0 0 2px #a0f, 0 0 5px 1px #000 inset;
 }
 
 /* ==================================== JUEGO ==================================== */
